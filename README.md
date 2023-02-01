@@ -14,3 +14,12 @@ Python requirements:
 - opencv
 - numpy
 - matplotlib
+
+## Example output:
+![Example output](output.png "Example output").
+
+## Segmentation Option 1:
+![Segmentation Option 1](seg1.png "Segmentation Option 1").
+
+## Segmentation Option 2:
+![Segmentation Option 2](seg2.png "Segmentation Option 2").
