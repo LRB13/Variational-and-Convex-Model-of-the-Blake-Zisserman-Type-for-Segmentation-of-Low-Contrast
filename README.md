@@ -10,6 +10,6 @@ For the python implementation, use "main.py" for a quick start.
 
 
 Python requirements:
-opencv
-numpy
-matplotlib
+*opencv
+*numpy
+*matplotlib
