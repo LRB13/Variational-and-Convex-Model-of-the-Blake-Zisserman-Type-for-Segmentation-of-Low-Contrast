@@ -25,7 +25,6 @@ uker(end,1)=-1;uker(1,end)=-1;
 
 uker1 = lambda1+(mu1+sigma1 + xi1)*fft2(uker);
 uker2 = lambda2 + xi2 +(mu2+sigma2)*fft2(uker);
-uker3 = lambda2 + xi2 +(mu2+sigma2)*fft2(uker);
 
 
 Imgx = DDx*Img; Imgy = Img*DDy';
@@ -50,7 +49,7 @@ for i=1:300
     
     
     rhs3 = lambda2.*Imgy + xi2*u*DDy' +sigma2*(w2-b2)*DDy;
-    newz = ifft2(fft2(rhs3)./uker3);
+    newz = ifft2(fft2(rhs3)./uker2);
     if update_dynamically == 1
         z = newz;
     end    
